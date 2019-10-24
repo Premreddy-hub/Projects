@@ -1,0 +1,25 @@
+div {
+	margin:10px;
+}
+#mainSec{
+	
+	border:1px solid black;
+}
+#myProfile{
+	height:300px;
+	width:800px;
+	border:1px solid black;
+	float:left;
+}
+#mngrProfile{
+	height:300px;
+	border:1px solid black;
+}
+#myLeave{
+	height:250px;
+	border:1px solid black;
+}
+#empLeave{
+	height:250px;
+	border:1px solid black;
+}
