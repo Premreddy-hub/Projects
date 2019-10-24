@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="get" action="SearchlibraryServlet">
+Select Search Criteria :
+
+<br/><br/>
+<input type="radio" name="type" value="id" > By Book Id <br/>
+<input type="radio" name="type" value="dept" > By Department <br/>
+<input type="radio" name="type" value="bookname" > By Book Name <br/>
+<input type="radio" name="type" value="authorname" > By Author Name <br/>
+<input type="radio" name="type" value="all" > All Books <br/>
+<br/>
+Insert Search Value: <input type='text' name='text' size='10'>
+<br/><br/> 
+<input type="submit" value="Search"/>
+<br/><br/>
+Return:
+<a href = "ReturnServlet" ><input type="button" value="return" /></a>
+
+</form>
+
+</body>
+</html>
